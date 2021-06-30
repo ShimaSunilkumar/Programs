@@ -1,0 +1,82 @@
+PRODUCT DETAILS
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Product details</title></head>
+<body>
+<h1 align="center"><font color="blue">Product Details</font></h1>
+<h2>Our products are</h2>
+<ul>
+<li>Computer</li>
+<li>Laptop</li>
+<li>Printer</li>
+<li>Smart phone</li></ul>
+<table align="center" border="6" width="65%">
+
+<tr height="30" bgcolor="red"><th><i>SL.NO</i></th>
+<th><i>Product name</i></th>
+<th><i>Product image</i></th>
+<th><i>Price of product</i></th>
+<th><i>Warranty of the product</i></th>
+</tr>
+
+<tr><th>1.</th>
+<th>Computer</th>
+<th><img src="C:\Users\USER\Documents\computer.jpg" width="150" height="100"></th>
+<th>13,799</th>
+<th>5 years</th>
+</tr>
+
+<tr><th>2.</th>
+<th>Laptop</th>
+<th><img src="C:\Users\USER\Documents\laptop.jpg" width="150" height="100"></th>
+<th>45,490</th>
+<th>5 years</th>
+</tr>
+
+<tr><th>3.</th>
+<th>Printer</th>
+<th><img src="C:\Users\USER\Documents\printer.jpg" width="150" height="100"></th>
+<th>12,710</th>
+<th>5 years</th>
+</tr>
+
+<tr><th>4.</th>
+<th>Smart phone</th>
+<th><img src="C:\Users\USER\Documents\smart phone.jpg" width="150" height="100"></th>
+<th>16,900</th>
+<th>5 years</th>
+</tr>
+</table>
+<h2><a href=" product details form.html">Next</a>
+</body>
+</html>
+
+PRODUCT DETAILS FORM
+
+<html>
+<head>
+<title>Form</title></head>
+<body bgcolor="pink">
+
+<h1 align="center">Product deatails form</h1>
+<form>
+Enter your First name:<br>
+<input type="text" name="firstname">
+<br>
+Enter your Last name:<br>
+<input type="text" name="lastname">
+
+<h2>Select the products that you like</h2><br>
+<input type="checkbox" name="computer" value="on">COMPUTER
+<input type="checkbox" name="laptop" value="on">LAPTOP
+<input type="checkbox" name="printer" value="on">PRINTER
+<input type="checkbox" name="smart phone" value="on">Smart Phone
+<h2>Do you want to purchase now?</h2>
+<label><input type="radio" id ="yes" name="option" value="yes">YES</label>
+<label><input type="radio" id ="no" name="option" value="no">No</label>
+</form>
+<h2><a href=" p details.html">Previous</a>
+</body>
+</html>

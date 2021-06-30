@@ -1,0 +1,41 @@
+<html>
+<head><link rel="stylesheet"href="mystyle.css"></head>
+<body background="C:\Users\USER\Downloads\Ms dhoni.jpg">
+<h1 align="center">Ms Dhoni</h1>
+<p1>Mahendra Singh Dhoni  born 7 July 1981), is a former Indian international cricketer who captained the Indian national team in limited-overs formats from 2007 to 2016 and in Test cricket from 2008 to 2014. Under his captaincy, India won the inaugural 2007 ICC World Twenty20, the 2010 and 2016 Asia Cups, the 2011 ICC Cricket World Cup and the 2013 ICC Champions Trophy. A right-handed middle-order batsman and wicket-keeper, Dhoni is one of the highest run scorers in One Day Internationals (ODIs) with more than 10,000 runs scored and is considered an effective "finisher" in limited-overs formats.He is widely regarded as one of the greatest wicket-keeper batsmen and captains in the history of the game. He was also the first wicket-keeper to effect 100 stumpings in ODI cricket.</p1>
+<p>
+<h2>International records</h2><span style="color:darkolivegreen;font-weight:bold"> (combined ODI, Test and T20I)
+	He has played the most international matches as captain (332)	Dhoni is the first, and so far only, wicket-keeper to effect 150 stumping dismissals across the three forms of the game. His current total of stumpings in internationals stands at 161.
+
+</span></p> 
+
+ 
+
+<p><h2>Sports-team ownerships</h2><span style="color:orange;font-weight:bold">
+Along with Sahara India Pariwar, Dhoni is a co-owner of Ranchi-based hockey club Ranchi Rays, a franchise of the Hockey India League.[221]
+Dhoni is also a co-owner, along with Abhishek Bachchan and Vita Dani, of Chennai-based football club Chennaiyin FC, a franchise of the Indian Super League.[222]
+Dhoni's interest in bikes is often discussed in media.[223] He co-partnered Akkineni Nagarjuna in buying a Supersport World Championship team, Mahi Racing Team India.
+</span></p>
+<p><h2>National honours</h2><span style="color:red;font-weight:bold">
+-	2018: -	Padma -	Bhushan, India's third-highest civilian award.-	
+-	2009: -	Padma Shri, India's fourth-highest civilian award.
+-	2007–08: -	Rajiv Gandhi Khel -	Ratna, India's highest honor given for achievement in sports.</span></p>
+<p><h2>Sporting honours</h2><span style="color:green;font-weight:bold">
+ICC ODI Player of the Year: 2008, 2009
+ICC World ODI XI: 2006, 2008, 2009, 2010, 2011, 2012, 2013, 2014 (captain in 2009, 2011–2014)
+ICC World Test XI: 2009, 2010, 2013
+Castrol Indian Cricketer of the Year: 2011
+ICC Men's ODI team of the decade: 2011 - 2020 (captain and wicketkeeper)	
+ICC Men's T20I team of the decade: 2011 -2020 (captain and wicketkeeper)
+ICC Spirit of the cricket award of the decade: 2011 - 2020</span></p>
+<p><h2>Other honours and awards</h2><span style="color:brown;font-weight:bold">
+MTV Youth Icon of the Year: 2006-	
+LG People's Choice Award: 2013
+-	Honorary doctorate degree by 	De Montfort University in August 2011
+CNN-News18 Indian of the Year: 2011</span></p>	
+
+<style>
+h2{text-decoration:underline;}
+h2{color:purple;}</style>
+</body>
+</html>

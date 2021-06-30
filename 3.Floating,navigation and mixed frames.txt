@@ -1,0 +1,83 @@
+MAIN.HTML
+
+<html>
+<body>
+<a href="navigation.html">navigation frame</a><br>
+<a href="floating.html">floating frame</a><br>
+<a href="mixed.html">mixed frames</a><br>
+</body>
+</html>
+
+NAV.HTML
+
+<html>
+<head>
+<title>cs</title>
+</head>
+<body>
+<a href="frame1.html" target="f1">frame1</a>
+<a href="frame2.html" target="f1">frame2</a>
+<a href="frame3.html" target="f1">frame3</a>
+</body>
+</html>
+
+NAVIGATION.HTML
+
+<html>
+<head>
+</head>
+<title>n</title>
+<frameset cols="20%,80%">
+<frame src="nav.html">
+<frame src="#" name="f1">
+</frame>
+</frameset>
+
+FLOATING.HTML
+
+
+<html>
+<body>
+<p>This is an example of iframe</p>
+<iframe src="C:\Users\USER\Documents\computer.jpg" height="30%" width="30%" marginwidth="90" margin height="80">
+</iframe>
+</body>
+</html>
+
+
+MIXED.HTML
+
+<html>
+<frameset cols="30%,*">
+<frame src="frame2.html"></frame>
+<frameset rows="50%,*">
+<frame src="frame1.html">
+<frame src="frame3.html" >
+</frameset>
+</frameset>
+</html>
+
+
+FRAME1.HTML
+
+<html>
+<body bgcolor="brown">
+<p>THIS IS FRAME 1</p>
+</body>
+</html>
+
+FRAME2.HTML
+
+<html>
+<body bgcolor="purple">
+<p> THIS IS THE FRAME 2</p>
+</body>
+</html>
+
+FRAME3.HTML
+
+<html>
+<body bgcolor="skyblue">
+<p> THIS IS THE FRAME 3</p>
+</body>
+</html>

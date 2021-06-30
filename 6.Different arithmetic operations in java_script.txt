@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2><center>JAVA SCRIPT</center></h2>
+<h3>String functions</h3>
+
+<script>
+var a="javascript";
+var b="programming";
+var c="language";
+var str=a.concat(" ",b," ",c);
+document.write("First string is:"+a, "<br>");
+document.write(" Second string is:"+b, "<br>");
+document.write(" Third string is:"+c, "<br>");
+document.write(" Concatenation of string is:"+str, "<br>");
+document.write("The string is:"+str, "<br>");
+document.write("string length is:" +str.length,"<br>");
+document.write("Uppercase of string is :"+str.toUpperCase(), "<br>");
+document.write("Lowercase of string is :"+str.toLowerCase(), "<br>");
+document.write("Slice(4,8):"+str.slice(4,8), "<br>");
+document.write("Substring(9,14):"+str.substring(9,14), "<br>");
+document.write("Character at index 6 is:" +str.charAt(6), "<br>");
+document.write("Position of gram is:"+str.search("gram"),"<br>");
+document.write("Index of last 'a' in language is:"+str.lastIndexOf("a"),"<br>");
+document.write("Replace javascript with JS:"+str.replace("javascript","JS"), "<br>");
+</script>
+
+<h3>Math Function</h3>
+
+<script>
+num=84.6;
+n=76.2;
+no=16
+m=-23
+document.write("Round of " +num," is:" +Math.round(num),"<br>");
+document.write("Round of " +n," is:" +Math.round(n),"<br>");
+document.write("Squareroot of " +no,"is:" +Math.sqrt(no),"<br>");
+document.write("Ceil of " +num," is:" +Math.ceil(num),"<br>");
+document.write("3 raise to " +no," is:" +Math.pow(no,3),"<br>");
+document.write("Absolute positive value of " +m," is:" +Math.abs(m),"<br>");
+document.write("Floor value of " +num," is:" +Math.floor(num),"<br>");
+document.write(" Largest value is:" +Math.max(num,n,no,m),"<br>");
+document.write(" Smallest value is:" +Math.min(num,n,no,m),"<br>");
+document.write("Sine 90 is:" +Math.sin(90*Math.PI/180),"<br>");
+document.write("Cos 180 is:" +Math.cos(180*Math.PI/180),"<br>");
+</script>
+
+<h3>Date Function</h3>
+
+<script>
+var t=new Date();
+document.write("Date is:" +t,"<br>");
+document.write("Year is:" +t.getFullYear(),"<br>");
+document.write("Month is:" +t.getMonth(),"<br>");
+document.write("Day is:" +t.getDay(),"<br>");
+document.write("Hours is:" +t.getHours(),"<br>");
+document.write("Minute is:" +t.getMinutes(),"<br>");
+document.write("Second is:" +t.getSeconds(),"<br>");
+document.write("Millisecond is:" +t.getMilliseconds(),"<br>");
+</script>
+
+</body>
+</html>
