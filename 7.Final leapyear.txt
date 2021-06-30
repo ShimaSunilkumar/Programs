@@ -1,0 +1,13 @@
+cy=2020
+n=int(input("Enter the final year:"))
+if(n>2020):
+    print("Leap years are:")
+    for i in range(cy,(n+1)):
+      if(i % 4 ==0):
+        if(i % 100 ==0):
+            if(i % 400 ==0):
+                print("No leap years")
+        else:
+             print(i)
+else:
+      print("Invalid input")

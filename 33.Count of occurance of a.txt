@@ -1,0 +1,10 @@
+size=int(input("Enter the number of elements: "))
+names=[]
+for i in range(size):
+    name=(input("Enter the name : "))
+    names.append(name)
+
+counts_a=[i for i in names for j in i if j=='a']
+print("The number of times 'A' occured:")
+print(len(counts_a))
+

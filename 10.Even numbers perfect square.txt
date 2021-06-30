@@ -1,0 +1,16 @@
+n=int(input("Enter a starting limit:"))
+m=int(input("Enter a ending limit:"))
+print("Numbers are:")
+for i in range(n,m+1):
+    for j in range(1,i):
+        if(i==j*j):
+            num=i
+            count=0
+            while(num>0):
+                a=num%10
+                num=num//10
+                if(a%2)!=0:
+                    count=count+1
+            if(count==0):
+                  print(i)
+

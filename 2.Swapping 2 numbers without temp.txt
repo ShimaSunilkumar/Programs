@@ -1,0 +1,6 @@
+print("Swapping two numbers without temp variable")
+x=input("Enter first number:")
+y=input("Enter second number:")
+x,y=y,x
+print("x=",int(x))
+print("y=",int(y))

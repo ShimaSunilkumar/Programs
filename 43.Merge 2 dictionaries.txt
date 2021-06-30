@@ -1,0 +1,9 @@
+a = {'Apple': 2, 'Orange': 3, 'Grapes': 1, 'banana': 4}
+b= {'Watermelon':6}
+
+print("Dictionary A : ",a)
+print("Dictionary B : ",b)
+
+a.update(b)
+print("Dictionary : ",a)
+

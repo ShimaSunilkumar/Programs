@@ -1,0 +1,10 @@
+x=int(input("Enter the first number:"))
+y=int(input("Enter the second number:"))
+z=int(input("Enter the third number:"))
+if(x>y):
+    if(x>z):
+        print(x," is greater")
+    elif(z>y):
+        print(z," is greater")
+    else:
+        print(y," is greater")

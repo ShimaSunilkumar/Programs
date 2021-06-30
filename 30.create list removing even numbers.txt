@@ -1,0 +1,10 @@
+result=[]
+a=[]
+n=int(input("Enter the number of elements:"))
+for i in range(n):
+    value=int(input("Enter the elements:"))
+    a.append(value)
+for i in a:
+    if(i%2!=0):
+        result.append(i)
+print("New list is:",result)

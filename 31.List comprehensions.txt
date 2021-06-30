@@ -1,0 +1,36 @@
+a = []
+res=[]
+number = int(input("Enter the Number of Elements : "))
+for i in range(number):
+    value = int(input("Enter the Elements : "))
+    a.append(value)
+res=[i for i in a if i>=0]
+print(res)
+
+
+number=[]
+num=int(input("Enter number of elements: "))
+for i in range(num):
+    value = int(input("Enter the elements : "))
+    number.append(value)
+    square = [n**2 for n in number]
+print("Square's of the numbers are:")
+print(square)
+
+
+a=[]
+value = (input("Enter the word : "))
+a.append(value)
+vowels = ['a', 'e', 'i', 'o', 'u']
+list = [x for x in value if x in vowels]
+print("The vowels are:")
+print(list)
+
+
+a=input("Enter the word : ")
+word=[]
+length=len(a)
+for i in range(length):
+    word.insert(i,a[i])
+ordinal=[ord(word[i]) for i in range(length)]
+print(ordinal)

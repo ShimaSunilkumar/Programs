@@ -1,0 +1,11 @@
+
+list=[]
+n=int(input("Enter the number of elements:"))
+for i in range(n):
+    value=int(input("Enter the elements:"))
+    list.append(value)
+item=int(input("Enter the element to be inserted:"))
+index=int(input("Enter the index value:"))
+list.insert(index,item)
+print(list)
+

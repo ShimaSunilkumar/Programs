@@ -1,0 +1,8 @@
+str=input("Enter word:")
+s=str[0]
+for i in range(len(str)):
+    str=str.replace(s,'$')
+    str=s+str[1:]
+print(str)
+
+

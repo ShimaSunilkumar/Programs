@@ -1,0 +1,7 @@
+a=[]
+n=int(input("Enter the number of elements:"))
+for i in range(n):
+    value=int(input("Enter the elements:"))
+    a.append(value)
+    res=['over'if value>100.else value for value in a]
+print("The list after replacement:",str(res))

@@ -1,0 +1,9 @@
+sentence=input("Enter sentence:")
+a=[]
+a=sentence.split(" ")
+long=len(a[0])
+for i in range(0,len(a)):
+      if len(a[i])>long:
+          long=len(a[i])
+print("Length of longest word: ",long)
+

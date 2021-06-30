@@ -1,0 +1,10 @@
+sentence=input("Enter sentence : ")
+freq ={}
+for i in sentence:
+    if i in freq:
+        freq[i]+=1
+    else:
+        freq[i] = 1
+print("Count of all characters in ",sentence," is :\n ",str(freq))
+
+

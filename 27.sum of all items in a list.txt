@@ -1,0 +1,9 @@
+list=[]
+num=int(input("Enter the number of elements:"))
+for n in range(num):
+    numbers=int(input("Enter the elements:"))
+    list.append(numbers)
+    s=0
+for n in range(num):
+    s=s+list[n]
+print("Sum of elements in given list is:",s)

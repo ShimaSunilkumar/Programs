@@ -1,0 +1,24 @@
+a=[]
+b=[]
+m=int(input("Enter the number of elements:"))
+for i in range(m):
+    value=int(input("Enter the elements:"))
+    a.append(value)
+n=int(input("Enter the number of elements:"))
+for j in range(n):
+    value=int(input("Enter the elements:"))
+    b.append(value)
+if(len(a)==len(b)):
+    print("The list are of same length")
+else:
+    print("The list are different length")
+print("Sum of list A:",sum(a))
+print("Sum of list B:",sum(b))
+if (sum(a)==sum(b)):
+    print("The of elements in list are the same")
+else:
+    print("The of elements in list are different")
+if(set(a)&set(b)):
+    print("Common element:",set(a)&set(b))
+else:
+    print("No common elements")
